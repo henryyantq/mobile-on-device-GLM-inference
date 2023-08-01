@@ -8,7 +8,7 @@ Install [Termux](https://github.com/termux/termux-app/releases) application on y
 Download a supported model file from [HuggingFace](https://huggingface.co/huangyuyang). You only need to download the model file suffixed with ".flm". It is better downloaded directly with your target Android device.
 
 ## Step 3
-Download the _main_ binary file. Copy or move the _main_ file and the model file to a storage path of your target device, e.g. `downloads`.
+Download the [_main_](https://github.com/henryyantq/mobile-on-device-GLM-inference/raw/main/main) binary file. Copy or move the _main_ file and the model file to a storage path of your target device, e.g. `downloads`.
 
 ## Step 4
 Open _Termux_, and execute the command: `termux-setup-storage`.
