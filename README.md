@@ -14,7 +14,7 @@ Download the [_main_](https://github.com/henryyantq/mobile-on-device-GLM-inferen
 Open _Termux_, and execute the command: `termux-setup-storage`.
 
 ## Step 5
-Execute the command: `mv storage/downloads/<model_filename>.flm . && mv storage/downloads/main . && chmod 777 main`. (Notice that the example command works for you ONLY if you put the aforementioned 2 files in the `downloads` directory, which is STRONGLY recommended for common users!)
+Execute the command: `mv storage/downloads/<model_filename>.flm . && mv storage/downloads/main . && chmod 777 main`. Replace the `<model_filename>.flm` with the filename of your model, e.g. `chatglm2-6b-int4.flm`. (Notice that the example command works for you ONLY if you put the aforementioned 2 files under the `downloads` directory, which is STRONGLY recommended for common users!)
 
 ## Step 6
 Run the streamlined inference of the language model with the command: `./main -p <model_filename>.flm`. 
