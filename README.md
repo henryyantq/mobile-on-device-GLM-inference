@@ -1,5 +1,5 @@
 # mobile-on-device-GLM-inference
-The repo provides the _main_ binary file generated with [FastLLM](https://github.com/ztxz16/fastllm) for the latest mainstream **ARMv8-based Android mobile devices** (i.e. smartphones and tablets). The file has been tested compatible to _Qualcomm Snapdragon 8+ Gen 1_.
+The repo provides the _main_ binary file generated with [FastLLM](https://github.com/ztxz16/fastllm) (`https://github.com/ztxz16/fastllm.git`) for the latest mainstream **ARMv8-based Android mobile devices** (i.e. smartphones and tablets). The file has been tested compatible to _Qualcomm Snapdragon 8+ Gen 1_.
 
 ## Step 1
 Install [Termux](https://github.com/termux/termux-app/releases) application on your Android device. Make sure your device has more than 3GB of RAM.
