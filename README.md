@@ -20,7 +20,7 @@ Execute the command: `mv storage/downloads/<model_filename>.flm . && mv storage/
 ## Step 6
 Run the streamlined inference of the language model with the command: `./main -p <model_filename>.flm`. 
 
-*You're ready for the mobile on-device inference with the latest GLM(s)!*
+** You're ready for the mobile on-device inference with the latest GLM(s)! **
 
 ## Hints:
 - If you encounter error like `FORTIFY: read: count XXXXXXXX > SSIZE_MAX`, you can try adding ` -l` at the end of the command for low memory mode inference.
