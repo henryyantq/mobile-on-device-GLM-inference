@@ -1,4 +1,5 @@
-# mobile-on-device-GLM-inference
+# Mobile on-Device Generative Language Model Inference
+
 The repo provides the _main_ binary file generated with [FastLLM](https://github.com/ztxz16/fastllm) (`https://github.com/ztxz16/fastllm.git`) for the latest mainstream **ARMv8-based Android mobile devices** (i.e. smartphones and tablets). The file has been tested compatible to _Qualcomm Snapdragon 8+ Gen 1_, _8 Gen 2_, and _MediaTek Dimensity 8100_ platform devices.
 
 ## Step 1
@@ -19,7 +20,7 @@ Execute the command: `mv storage/downloads/<model_filename>.flm . && mv storage/
 ## Step 6
 Run the streamlined inference of the language model with the command: `./main -p <model_filename>.flm`. 
 
-## You're ready for the mobile on-device inference with the latest GLM(s)! 
+*You're ready for the mobile on-device inference with the latest GLM(s)!*
 
 ## Hints:
 - If you encounter error like `FORTIFY: read: count XXXXXXXX > SSIZE_MAX`, you can try adding ` -l` at the end of the command for low memory mode inference.
