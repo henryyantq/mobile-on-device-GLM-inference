@@ -23,4 +23,4 @@ Run the streamlined inference of the language model with the command: `./main -p
 You're ready for the mobile on-device inference with the latest GLM(s)!
 
 ## Hints:
-- If you encounter error like `FORTIFY: read: count XXXXXXXX > SSIZE_MAX`, you can try adding ` -l` at the end of the command for low memory mode inference.
+- If you encounter error like `FORTIFY: read: count XXXXXXXX > SSIZE_MAX`, you can try adding ` -l` at the end of the command for low memory mode inference. For instance, it is observed that the Qwen-7B-Chat-int4.flm model cannot run without low memory mode on devices with ≤12GB RAM.
